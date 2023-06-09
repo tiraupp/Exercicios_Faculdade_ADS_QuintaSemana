@@ -17,17 +17,17 @@ public class Main {
         ElevarPotencia elevarPotencia = new ElevarPotencia();
         RadianosEmGrau radianosEmGrau = new RadianosEmGrau();
 
-        String[] opcoes = {"1 - Dados", "2 - Farmacia", "3 - Senha", "4 - Frase Invertida", "5 - Verifica Conteúdo da Frase", "6 - Frase sem último caracter", "7 - Número elevado a potência", "8 - Conversão de radianos em grau", "Sair"};
+        String[] opcoes = {"1 - Dado", "2 - Farmacia", "3 - Senha", "4 - Frase Invertida", "5 - Verifica Conteúdo da Frase", "6 - Frase sem último caracter", "7 - Número elevado a potência", "8 - Conversão de radianos em grau", "Sair"};
 
         do {
-            escolha = (String) JOptionPane.showInputDialog(null, "Escolha o exercicio: ", "Exercicios", JOptionPane.QUESTION_MESSAGE, null, opcoes, "1 - Dados");
+            escolha = (String) JOptionPane.showInputDialog(null, "Escolha o exercício: ", "Exercícios", JOptionPane.QUESTION_MESSAGE, null, opcoes, "1 - Dado");
 
             switch (escolha) {
                 case "Sair":
                     escolha = "";
                     JOptionPane.showMessageDialog(null, "Saindo da aplicação", "Sair", JOptionPane.INFORMATION_MESSAGE);
                     break;
-                case "1 - Dados":
+                case "1 - Dado":
                     dado.mostrarJogada();
                     break;
                 case "2 - Farmacia":
