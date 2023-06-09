@@ -1,0 +1,1 @@
+# Exercicios_Faculdade_ADS_QuintaSemana
